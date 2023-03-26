@@ -49,6 +49,13 @@ export default function Home() {
         <label></label>
         <main></main>
         <span></span>
+        <label></label>
+        <span></span>
+        <div></div>
+        <label></label>
+        <main></main>
+        <div></div>
+        <label></label>
       </div>
       <div className={styles.container}>
         <div className={styles.row}>
