@@ -58,6 +58,8 @@ export default function Home() {
         <label></label>
       </div>
       <div className={styles.container}>
+        <p className={styles.code}>Laura, esse é o mês do seu aniversário e estamos todos aqui com você pra te acompanhar nesse mês.🥳🎉🎁🎊</p>
+
         <div className={styles.row}>
           <Image className={styles.item} src='/nina.jpeg' alt='Nina' width={200} height={210} />
           <Image className={styles.item} src='/celestial.jpeg' alt='Celestia' width={200} height={210} />
@@ -68,9 +70,6 @@ export default function Home() {
           <Image className={styles.item} src='/gato.jpeg' alt='Gato' width={200} height={210} />
           <Image className={styles.item} src='/stella.jpeg' alt='Stella' width={200} height={210} />
         </div>
-
-        <p className={styles.code}>Laura, esse é o mês do seu aniversário e estamos todos aqui com você pra te acompanhar nesse mês.🥳🎉🎁🎊</p>
-
       </div>
     </>
   )

@@ -40,6 +40,7 @@
 .bolhas {
   position: absolute;
   display: flex;
+  width: 200vh;
 }
 
 .bolhas span {
@@ -127,4 +128,16 @@
   box-shadow: 0 0 0 10px #2dc3ff44,
     0 0 50px #2dc3ff,
     0 0 100px #2dc3ff;
+}
+
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+	.row {
+    flex-direction: column;
+  }
+  .item {
+    width: 80%;
+    margin-bottom: 1.4rem;
+  }
 }
